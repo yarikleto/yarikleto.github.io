@@ -14,9 +14,9 @@
 <body class="loading">
   <div class="wrapper">
     <div class="bg"></div>
-    <div class="overlay"></div>
-    <div class="main">
-      <div class="main__avatar-wrapper"><img src="./img/avatar.jpg" alt="" class="main__avatar"></div>
+    <div class="overlay" id="particles-js"></div>
+    <div class="main" id="main">
+      <div class="main__avatar-wrapper"><img src="./img/avatar.jpg" id="main__avatar" alt="" class="main__avatar"></div>
       <div class="main__name"> Jaroslav Pakhaliuk </div>
       <div class="main__position"> Frontend-developer </div>
       <ul class="main__social-list">
@@ -33,13 +33,8 @@
       <div class="main__email"> jaroslav.frontend@gmail.com </div>
     </div>
   </div>
-  <script async>
-    function cb() {
-      document.body.className = '';
-      window.removeEventListener('load', cb);
-    }
-    window.addEventListener('load', cb);
-  </script>
+  <script src="./lib/particles.min.js"></script>
+  <script src="./js/index.min.js"></script>
 </body>
 
 </html>

@@ -79,7 +79,7 @@ body {
 
 .loading * {
   -webkit-animation: none;
-  animation: none
+  animation: none;
 }
 
 .wrapper {
@@ -89,7 +89,8 @@ body {
   -webkit-animation: opacity 3s forwards;
   animation: opacity 3s forwards;
   opacity: 0;
-  overflow: hidden
+  overflow: hidden;
+  perspective: 700px;
 }
 
 .bg {
