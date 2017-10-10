@@ -498,15 +498,15 @@ body {
 
 @media all and (max-height: 380px) {
   .main__social-list {
-    top: 18.625rem;
+    top: 17.625rem;
   }
 
   .main__position {
-    top: 15rem;
+    top: 14rem;
   }
 
   .main__name {
-    top: 11.5rem;
+    top: 10.5rem;
   }
 
   .main__avatar-wrapper {
@@ -518,6 +518,6 @@ body {
   }
 
   .main__email {
-    top: 24rem;
+    top: 22rem;
   }
 }
