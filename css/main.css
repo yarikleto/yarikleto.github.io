@@ -415,3 +415,60 @@ body {
     top: 7.4rem;
   }
 }
+
+@media all and (max-height: 570px) {
+  .main__avatar-wrapper {
+    top: 7.1875rem;
+  }
+
+  .main::after, .main::before {
+    top: 11.4rem;
+  }
+
+  .main__name {
+    width: 100%;
+    top: 15.5rem;
+  }
+
+  .main__position {
+    width: 100%;
+    top: 19rem;
+  }
+
+  .main__social-list {
+    top: 21.625rem;
+  }
+}
+
+@media all and (max-height: 530px) {
+  .main__social-list {
+    width: 100%;
+  }
+
+  .main__social-item {
+    display: inline-block;
+  }
+}
+
+@media all and (max-height: 530px) {
+  .main__social-list {
+    top: 25.625rem;
+  }
+
+  .main__position {
+    top: 23rem;
+  }
+
+  .main__name {
+    font-size: 1.8rem;
+    top: 19.5rem;
+  }
+
+  .main__avatar-wrapper {
+    top: 9.1875rem;
+  }
+
+  .main::after, .main::before {
+    top: 13.4rem;
+  }
+}
