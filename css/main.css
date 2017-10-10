@@ -408,4 +408,10 @@ body {
   .main {
     height: 100%;
   }
+  .main__avatar-wrapper {
+    top: 3.1875rem;
+  }
+  .main::after, .main::before {
+    top: 7.4rem;
+  }
 }
